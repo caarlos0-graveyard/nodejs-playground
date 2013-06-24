@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "name": "tests",
+  "dependencies": {
+    "formidable": "~1.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caarlos0/nodejs-playground"
+  }
+}
