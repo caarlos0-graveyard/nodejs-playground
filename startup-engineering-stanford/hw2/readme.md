@@ -34,7 +34,7 @@ What do the lines like `symbols = symbols || SYMBOLS_DEFAULT;` do?
 - [ ] This is a JS idiom for overriding user inputted arguments.
 - [ ] This is a JS idiom for setting symbols to undefined.
 
-# Question 4
+### Question 4
 
 Which of the following are standard node modules, included with the default
 install?
