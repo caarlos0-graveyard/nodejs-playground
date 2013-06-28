@@ -1,4 +1,7 @@
-# Question 1
+# QUIZ
+
+
+### Question 1
 
 Which of the following statements is true about our use of npm and chmod before
 executing ./market-research.js?
@@ -12,7 +15,7 @@ at the command line, but using npm to install the libraries is not.
 - [x] We need to both install necessary libraries and make the file executable
 before executing it.
 
-# Question 2
+### Question 2
 
 After looking at the source of market-research.js, what variable holds the
 arguments sent to the script when invoked at the command line?
@@ -22,7 +25,7 @@ arguments sent to the script when invoked at the command line?
 - [ ] columns
 - [ ] console.log
 
-# Question 3
+### Question 3
 
 What do the lines like `symbols = symbols || SYMBOLS_DEFAULT;` do?
 
@@ -42,7 +45,7 @@ install?
 - [ ] accounting
 - [x] fs
 
-# Question 5
+### Question 5
 
 What is the most likely bug in the `marketCapFloat` function?
 
@@ -52,7 +55,7 @@ What is the most likely bug in the `marketCapFloat` function?
 a floating point.
 - [ ] `parseFloat` should not be used here.
 
-# Question 6
+### Question 6
 
 What does `csv2console` do?
 - [ ] Reads in data from csvfile and prints it out unchanged to STDOUT.
@@ -62,7 +65,7 @@ and prints these out to STDOUT.
 - [ ] Reads in data from csvfile, asserts that it is within range, and prints
 to STDOUT.
 
-# Question 7
+### Question 7
 
 What does `buildfn` do? (Hint: read this and this if you've never heard of
 closures.)
@@ -74,7 +77,7 @@ parametrized with the values of result and response from the enclosing scope.
 - [x] Creates and returns a function named response2console, which is
 parametrized with the values of csvfile and headers from the enclosing scope.
 
-# Question 8
+### Question 8
 
 What does the `marketResearch` function do?
 
@@ -84,7 +87,7 @@ What does the `marketResearch` function do?
 the results of that API call to disk and then reads/prints/processes said file
 - [ ] Resolves errors when invoked at the command line
 
-# Question 9
+### Question 9
 
 What does the `if(require.main == module)` conditional do? Check all that apply.
 (Hint: see here and here (halfway down the page) if you can't figure it out from context).
@@ -99,7 +102,7 @@ shut down with an error otherwise.
 market-research is invoked from the command line and one that executes when
 invoked as a module via require.
 
-# Question 10
+### Question 10
 
 Why do we use console.error in addition to console.log (Hint: see here)?
 
