@@ -1,0 +1,24 @@
+{
+  "name": "hw2",
+  "version": "0.0.0",
+  "description": "From HW2 in https://class.coursera.org/startup-001/",
+  "main": "market-research.js",
+  "dependencies": {
+    "accounting": "~0.3.2",
+    "csv": "~0.3.3",
+    "restler": "~2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caarlos0/nodejs-playground"
+  },
+  "author": "Carlos A Becker",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/caarlos0/nodejs-playground/issues"
+  }
+}
