@@ -3,7 +3,7 @@
 What tool is most appropriate for changing all instances of foo to bar in a
 file?
 
-- [ ] `sed`
+- [x] `sed`
 - [ ] `lsof`
 - [ ] `tail`
 - [ ] `cut`
@@ -14,6 +14,8 @@ file?
 What is the result of running:
 
 `yes | nl | head | tail -n +10 | awk '{print $1}'`
+
+> 10
 
 
 # Question 3
@@ -26,7 +28,7 @@ the lecture, but Googling commands is a very frequent exercise.)
 - [ ] `lpr`
 - [ ] `lzcat`
 - [ ] `ln`
-- [ ] `ldd`
+- [x] `ldd`
 - [ ] `lsof`
 
 # Question 4
@@ -47,7 +49,7 @@ string asdf under the current directory?
 
 - [ ] `locate 'py' | grep 'py$' | grep -a asdf`
 - [ ] `ls -alrth 'asdf.*py'`
-- [ ] `find -type f -name '*py' -print0 | xargs -0 grep -l -i 'asdf'`
+- [x] `find -type f -name '*py' -print0 | xargs -0 grep -l -i 'asdf'`
 - [ ] `python -c 'import os, re; print [xx for xx in os.listdir(".") if re.search("py$",xx)]'`
 - [ ] `head *py | grep asdf`
 
@@ -60,7 +62,7 @@ transcription factor as the entry in their third column?
 
 - [ ] `arch`
 - [ ] `agrep`
-- [ ] `awk`
+- [x] `awk`
 - [ ] `sed`
 - [ ] `asr`
 
@@ -77,27 +79,27 @@ What does the following command do?
 - [ ] Prints out the contents of the ptt file.
 - [ ] Sends the ptt file to the remote server
 - [ ] synchronizes the remote ptt file with the local copy
-- [ ] Counts the number of lines in the ptt file
+- [x] Counts the number of lines in the ptt file
 
 # Question 8
 
 Which of the following commands counts the number of rows in NC_007779.ptt that
 have the word 'protein' in them?
 
-- [ ] `cat NC_007779.ptt | grep protein | wc -l`
+- [x] `cat NC_007779.ptt | grep protein | wc -l`
 - [ ] `grep protein NC_007779.ptt | wc -L`
 - [ ] `find protein NC_007779.ptt | wc -L`
-- [ ] `grep protein NC_007779.ptt | wc -l`
+- [x] `grep protein NC_007779.ptt | wc -l`
 - [ ] `grep -v protein NC_007779.ptt | wc -l`
 
 # Question 9
 
 Which of the following commands prints the 123rd line of NC_007779.ptt?
 
-- [ ] `sed -n '123p' NC_007779.ptt`
-- [ ] `awk 'NR==123' NC_007779.ptt`
+- [x] `sed -n '123p' NC_007779.ptt`
+- [x] `awk 'NR==123' NC_007779.ptt`
 - [ ] `grep -n 123 NC_007779.ptt`
-- [ ] `cat NC_007779.ptt | head -123 | tail -1`
+- [x] `cat NC_007779.ptt | head -123 | tail -1`
 
 # Question 10
 
@@ -105,14 +107,14 @@ Which of the following prints the number of bytes in NC_007779.ptt?
 
 - [ ] None of the above
 - [ ] `wc -w NC_007779.ptt`
-- [ ] `echo $(wc -c NC_007779.ptt)`
+- [x] `echo $(wc -c NC_007779.ptt)`
 - [ ] `wc NC_007779.ptt &`
 
 # Question 11
 
 Which command would you use to create a symbolic link to a file?
 
-- [ ] `ln -s`
+- [x] `ln -s`
 - [ ] `du`
 - [ ] `rsync`
 - [ ] `sl`
@@ -124,7 +126,7 @@ Which git command syncs the remote repository with all the changes you've made
 in your local git repository?
 
 - [ ] `git commit`
-- [ ] `git push`
+- [x] `git push`
 - [ ] `git remote`
 - [ ] `git init`
 
@@ -136,7 +138,7 @@ Say you have already pushed your local repository to github and would now like
 to push it heroku as well.
 Which of the following git commands would you use to accomplish this?
 
-- [ ] `git remote add`
+- [x] `git remote add`
 - [ ] `git pull`
 - [ ] `git clone`
 - [ ] `git reset`
@@ -147,6 +149,8 @@ What is the SHA-1 hash of the first commit of the git repository
 https://github.com/startup-class/setup.git?
 Hint: You might find `git log` useful.
 
+> 50ff86b66254abeb42b2aa5eabe915e18c359ac0
+
 # Question 15
 
 Why is it good practice to have a setup.git and `dotfiles.git`?
@@ -155,7 +159,7 @@ Why is it good practice to have a setup.git and `dotfiles.git`?
 your team mate can work on different things concurrently.
 - [ ] You can have at most one `setup.sh` in one git repository and so we use
 `setup.git` and `dotfiles.git` to store the other setup configuration files.
-- [ ] It makes it easy to rebuild a remote environment just like the one you've
+- [x] It makes it easy to rebuild a remote environment just like the one you've
 been using, and eases deployment.
 - [ ] It makes sense to stored copies of important files in multiple git
 repositories in case they get lost.
