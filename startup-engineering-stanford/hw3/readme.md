@@ -71,7 +71,9 @@ transcription factor as the entry in their third column?
 The next few questions refer to the genomic data set NC_007779.ptt.
 You can retrieve it via
 `wget https://spark-public.s3.amazonaws.com/startup/data/NC_007779.ptt`
--
+
+
+
 What does the following command do?
 `curl -s https://spark-public.s3.amazonaws.com/startup/data/NC_007779.ptt | wc -l`
 
