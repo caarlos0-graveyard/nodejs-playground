@@ -36,7 +36,7 @@ the lecture, but Googling commands is a very frequent exercise.)
 Which of the following command/flag combinations enable the use of multiple
 processors?
 
-- [ ] `xargs -P`
+- [x] `xargs -P`
 - [ ] `grep -a`
 - [ ] `ls -t`
 - [ ] `top -o`
