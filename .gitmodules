@@ -1,3 +1,6 @@
 [submodule "startup-engineering-stanford/hw3/bitstarter"]
 	path = startup-engineering-stanford/hw3/bitstarter
 	url = https://github.com/caarlos0/bitstarter.git
+[submodule "startup-engineering-stanford/hw4/bitstarter"]
+	path = startup-engineering-stanford/hw4/bitstarter
+	url = https://github.com/caarlos0/bitstarter
