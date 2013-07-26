@@ -75,9 +75,9 @@ Which of the following are ways that CSS rules can be included in a webpage?
 
 - [x] CSS rules can be applied dynamically after the page loads by Javascript,
 via JQuery's css method
-- [x] Embedding CSS via <style> elements
-- [x] External CSS via <link> elements
-- [x] Importing CSS via the @import rule
+- [x] Embedding CSS via `<style>` elements
+- [x] External CSS via `<link>` elements
+- [x] Importing CSS via the `@import` rule
 - [x] Inline CSS via style attributes
 
 # Question 7
