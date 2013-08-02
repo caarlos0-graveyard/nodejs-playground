@@ -4,3 +4,6 @@
 [submodule "startup-engineering-stanford/hw4/bitstarter"]
 	path = startup-engineering-stanford/hw4/bitstarter
 	url = https://github.com/caarlos0/bitstarter
+[submodule "startup-engineering-stanford/hw6"]
+	path = startup-engineering-stanford/hw6
+	url = https://github.com/caarlos0/bitstarter
