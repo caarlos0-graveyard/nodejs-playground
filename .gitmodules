@@ -7,3 +7,9 @@
 [submodule "startup-engineering-stanford/hw6"]
 	path = startup-engineering-stanford/hw6
 	url = https://github.com/caarlos0/bitstarter
+[submodule "startup-engineering-stanford/hw7"]
+	path = startup-engineering-stanford/hw7
+	url = https://github.com/caarlos0/bitstarter
+[submodule "startup-engineering-stanford/ssjs-db"]
+	path = startup-engineering-stanford/ssjs-db
+	url = https://github.com/caarlos0/bitstarter-ssjs-db
